@@ -79,6 +79,7 @@ explorer:
     seed: 42
 synchronizer:
   sync_method: 'nccl'
+  sync_style: 'trainer_driven'
   sync_interval: 16
   sync_timeout: 1200
 trainer:
